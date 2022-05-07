@@ -13,4 +13,16 @@
     <Style TargetType="{x:Type Grid}">
         <Setter Property="Background" Value="#C3F0D2"></Setter>
     </Style>
+    <Style TargetType="{x:Type Image}" x:Key="LogoImageStyle">
+        <Setter Property="Source" Value="..\Images\Accessorues_Logo.png"></Setter>
+        <Setter Property="Width" Value="100"></Setter>
+        <Setter Property="Height" Value="100"></Setter>
+        <Setter Property="Margin" Value="10,10,0,0"></Setter>
+        <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+        <Setter Property="VerticalAlignment" Value="Top"></Setter>
+    </Style>
+    <Style TargetType="{x:Type Window}" x:Key="windowStyle">
+        <Setter Property="Background" Value="#ffffff"></Setter>
+        <Setter Property="FontFamily" Value="Bahnschrift Light"></Setter>
+    </Style>
 </ResourceDictionary>
